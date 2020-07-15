@@ -19,8 +19,7 @@ import { HomeComponent } from './views/home/home.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent,
-    MatCardModule
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +27,8 @@ import { HomeComponent } from './views/home/home.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
