@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
+      "name": "Caneta Stabillo Preta",
       "price": 5.89
     },
     {
@@ -39,6 +39,16 @@
       "name": "Sopao da cuca",
       "price": "25.99",
       "id": 8
+    },
+    {
+      "name": "Hello world",
+      "price": "59",
+      "id": 9
+    },
+    {
+      "name": "Sopa de Macaco",
+      "price": "5.59",
+      "id": 10
     }
   ]
 }
