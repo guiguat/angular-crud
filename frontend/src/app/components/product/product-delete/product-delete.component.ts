@@ -1,5 +1,4 @@
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatSnackBar } from '@angular/material/snack-bar';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
@@ -15,7 +14,6 @@ export class ProductDeleteComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
-    private snackBar: MatSnackBar,
     private router: Router,
     private route: ActivatedRoute
   ) { }
@@ -29,13 +27,7 @@ export class ProductDeleteComponent implements OnInit {
 
   deleteProduct(id:number){
     this.productService.delete(id).subscribe(()=>{
-      this.snackBar.open('Produto deletado com sucesso', '', 
-        {
-          duration:3000,
-          horizontalPosition:"right",
-          verticalPosition:"top"
-        }
-      )
+      this.productService.showMessage("Produto excluído com sucesso")
       this.router.navigate(['/products'])
     })
     
