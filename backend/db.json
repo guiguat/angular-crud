@@ -24,31 +24,6 @@
       "name": "Notebook quantico",
       "price": "5000.99",
       "id": 5
-    },
-    {
-      "name": "Produto de teste",
-      "price": 195.98,
-      "id": 6
-    },
-    {
-      "name": "Produto de teste",
-      "price": 195.98,
-      "id": 7
-    },
-    {
-      "name": "Sopao da cuca",
-      "price": "25.99",
-      "id": 8
-    },
-    {
-      "name": "Hello world",
-      "price": "59",
-      "id": 9
-    },
-    {
-      "name": "Sopa de Macaco",
-      "price": "5.59",
-      "id": 10
     }
   ]
 }
